@@ -1,237 +1,91 @@
-@media (max-width: 749px){      
- 
-    .header_wrap {
+@media (max-width: 749px) {  
+
+    .header_box-right {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .header_box-left {
+        font-size: 120px;
+        line-height: 188px;
+        margin-right: 14px;
+    }
+    .header_author {
+        margin-left: 0;
+    }
+    .information_box {
         flex-direction: column;
     }
-    .header_mode {
-        order: 0;
-        margin-bottom: 40px;
+    .information_box-left {
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 131%;
     }
-    .header_title {
-        font-size: 25px;
-        line-height: 30px;
+
+    header {
+        padding-top: 80.9%;
+        margin-bottom: 64px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../image/header_bg_mob.jpg);
     }
-    .header_img-mob {
-        display: none !important;
-    }
-    .header_text {
-        max-width: 100%;
-    }
-    .header_action {
-        max-width: 100%;
-    }
-    .form-title {
-        max-width: 100%;
-    }
-    .header_img-mobile {
-        display: block !important;
-        text-align: center;
-    }
-    .header .form .line {
-        flex-direction: column;
-    }
-    .header .form .field {
-        max-width: 100%;
-        margin-right: 0px;
-        margin-bottom: 12px;
-    }
-    .header .form .field:last-child {
-        max-width: 100%;
-        width: 100%;
-    }
-    .header::after {
-        display: none;
-    }
-    .header::before {
-        width: 772px;
-        height: 772px;
-        top: 801px;
-        right: -147px;
-    }
-    .header_action {
-        margin-bottom: 55px;
-    }
-    .header_box {
-        margin-top: 55px;
-    }
-    .benefits_items > * {
-        margin-left: 0px;
-        width: 100%;
+    .information_list {
+        column-gap: 0px;
+        column-count: 1;
+        padding-left: 20px;
         margin-bottom: 30px;
     }
-    .benefits_items {
-        margin-left: 0px;
+    .information_banner {
+        padding: 25px 25px 25px 0;
+        display: flex;
+        align-items: center;
+        margin-bottom: 55px;
     }
-    .benefits_item-text br {
-        display: none;
-    }
-    .benefits_item {
-        margin-bottom: 46px;
-    }
-    .title {
-        font-size: 22px;
-        line-height: 25px;
-        margin-bottom: 28px;
-    }
-    .report_info {
-        flex-direction: column;
-    }
-    .report_info-left {
-        margin-right: 0;
-        width: 100%;
-    }
-    .report_info-text br {
-        display: none;
-    }
-    .report_info-right {
-        width: 100%;
-        margin-top: 30px;
-    }
-    .geology_items-top {
-        margin-left: 0;
-    }
-    .geology_items-top > * {
-        margin-left: 0;
-        width: 100%;
-    }
-    .action_items {
-        flex-direction: column;
-    }
-    .action_item-right .action_item-info {
-        max-width: 410px;
-    }
-    .action_item-left .action_item-info {
-        max-width: 410px;
-    }
-    .stage_items {
-        margin-left: 0;
-    }
-    .stage_items > * {
-        margin-left: 0;
-        width: 100%;
-    }
-    .stage_item-info {
-        margin-left: 0px;
-    }
-    .calculation_form-line {
-        margin-left: 0;
-        flex-wrap: wrap;
-    }
-    .calculation_form-line > * {
-        margin-left: 0;
-        width: 100%;
-    }
-    .calculation_checkbox {
-        width: fit-content;
-    }
-    .calculation .btn {
-        width: 100%;
-    }
-    .guide_items-left {
-        margin-right: 0;
-    }
-    .guide_items-left .guide_item {
-        flex-direction: column;
-    }
-    .guide_items-left .guide_item-photo {
-        width: 300px;
-        height: 300px;
-        margin: 0 auto 27px;
-    }
-    .guide_items-right {
-        flex-direction: column;
-    }
-    .guide_items-right > * {
-        width: 100%;
-    }
-    .guide_item-post br {
-        display: none;
-    }
-    .guide_items-right .guide_item-text {
-        max-width: 100%;
-    }
-    .guide_items-right .guide_item {
-        margin-bottom: 54px;
-    }
-    .certificate_items {
-        margin-left: 0;
-        flex-wrap: wrap;
-    }
-    .certificate_items > * {
-        margin-left: 0;
-        width: 100%;
-    }
-    .certificate_item-text {
+    .information_banner-text {
         font-size: 20px;
-        line-height: 25px;
-        margin-top: 28px;
+        line-height: 126%;
     }
-    .contract .report_form-mob {
-        display: none !important;
+    .information_banner-yellow {
+        padding: 32px 19px;
     }
-    .contract .report_form {
-        display: block !important;
-    }
-    .contract .report_info-left {
-        width: 100%;
-        margin-right: 0;
-    }
-    .contract .report_form-line {
-        flex-direction: column-reverse;
-        margin-left: 0px;
-    }
-    .contract .report_form-line > * {
+    .information_history-items > * {
         width: 100%;
         margin-left: 0px;
-        margin-bottom: 19px;
-    }
-    .contract_info-right {
-        width: 100%;
-    }
-    .partners_items {
+        margin-bottom: 25px;
+    }    
+    .information_history-items {
         margin-left: 0px;
+        margin-bottom: -25px;
     }
-    .partners_item {
-        width: calc(100%/2 - 20px);
-        margin-bottom: 20px;
+    .information_history-item:nth-child(2) {
+        margin-top: 0px;
     }
-    .contacts .map_wrap {
-        height: 327px;
+    .information_history-item:nth-child(3) {
+        margin-top: 0px;
     }
-    .contacts_items {
-        column-count: 1;
+    .information_history-item {
+        padding: 34px 40px;
     }
-    .contacts_item {
-        margin-bottom: 40px;
+    .information_text {
+        font-size: 18px;
+        line-height: 131%;
     }
-    .calculation-bottom .btn {
-        margin-top: 15px;
+    .information_box-right {
+        font-size: 18px;
+        line-height: 131%;
     }
-    .footer_wrap {
-        flex-direction: column;
+    .information_box-right a {
+        font-size: 18px;
+        line-height: 131%;
     }
-    .footer_author {
-        text-align: center;
-        margin-top: 50px;
-    }
-    .header {
-        padding: 24px 0 10px;
-    }
-    .benefits_item {
-        margin-bottom: 33px;
-    }
-    .slick-dots {
-        margin-top: 40px;
-    }
-    .reviews {
-        padding: 45px 0 20px;
-    }
-    .geology_item-title br {
-        display: none;
+    .information_title {
+        font-size: 23px;
+        line-height: 120%;
+        margin-bottom: 26px;
     }
 
-
-    
+        
 }
 
     
