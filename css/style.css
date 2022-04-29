@@ -189,12 +189,14 @@ body {
 
 
 header {
-  padding-top: 84.9%;
-  margin-bottom: 64px;
+  background-image: url(../image/header_bg.jpg);
+  padding-top: calc(90% - 703px);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../image/header_bg.jpg);
+  background-size: 100%;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto 62px;
 }
 .header_box {
   display: flex;

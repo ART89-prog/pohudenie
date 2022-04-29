@@ -23,11 +23,10 @@
     }
 
     header {
-        padding-top: 80.9%;
-        margin-bottom: 64px;
+        padding-top: calc(123% - 252px);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-image: url(../image/header_bg_mob.jpg);
     }
     .information_list {

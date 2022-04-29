@@ -7,7 +7,14 @@ $(() => {
 	$('.information_box-right a').click(function(event) {
 		event.preventDefault();
 		$('.information_block').css('display', 'block');
-	  });
+	});
+
+	$(".information_box-right a").click(function () {
+		var elementClick = $(this).attr("href");
+		var destination = $(elementClick).offset().top;
+		$('html, body').animate({ scrollTop: destination }, 600);
+		return false;
+	});
 
 
 })
