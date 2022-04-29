@@ -6,7 +6,7 @@ $(() => {
 
 	$('.information_box-right a').click(function(event) {
 		event.preventDefault();
-		$('.information_block').css('display', 'block');
+		$('.information_block2').css('display', 'block');
 	});
 
 	$(".information_box-right a").click(function () {

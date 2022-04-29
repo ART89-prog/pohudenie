@@ -232,6 +232,10 @@ header {
 .instagram_link {
   display: none;
 }
+.information_block2 {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
 .information_text {
   font-weight: 400;
   font-size: 22px;
