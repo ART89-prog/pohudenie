@@ -190,10 +190,10 @@ body {
 
 header {
   background-image: url(../image/header_bg.jpg);
-  padding-top: calc(90% - 703px);
+  padding-top: 579px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   max-width: 1000px;
   width: 100%;
   margin: 0 auto 62px;
